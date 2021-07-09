@@ -1,0 +1,101 @@
+body {
+   
+    color:#646464;
+    background-color:#efefef;
+  }
+#masthead {
+ 
+  background-color: #000044;
+  color: #aaaacc;
+}
+#masthead h1 {
+  font-size: 55px;
+  line-height: 1;
+  color: #fefeff;
+ 
+}
+
+#masthead .well {
+  
+  background-color: #111166;
+  border-color: #000022;
+  color: #efefff;
+  background-image: url("/images/banner.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.top-spacer {
+  background-color: #ffffff;
+  
+}
+
+h1,
+h2,
+h3,
+.highlight,
+.navbar a,
+#masthead h4 {
+  font-family: "Oswald", arial narrow, sans-serif;
+}
+.card:nth-child(odd) {
+  background-color: #aaaacc;
+}
+.btn-twitter {
+  background-color: #4099ff;
+  color: #fff;
+}
+.btn-facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+.btn-google-plus {
+  background-color: #d34836;
+  color: #fff;
+}
+
+.btn-twitter:hover {
+  background-color: #3088ff;
+  color: #62bbff;
+}
+.btn-facebook:hover {
+  background-color: #2a4998;
+  color: #4c6bba;
+}
+.btn-google-plus:hover {
+  background-color: #c23836;
+  color: #e45a58;
+}
+
+a,
+a:hover {
+  color: #223344;
+  text-decoration: none;
+}
+
+footer {
+  /* margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px; */
+  background-color: #cecece;
+}
+.navbar{
+    background-color:#111166;
+    
+}
+.btn{
+    border-color: #3B5998;
+}
+.btn-outline-primary:hover{
+    background-color: #000044 !important;
+    color:#fff !important;
+    
+}
+.bgAddAuthor{
+  background-image:
+ 
+ /* url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg); */
+ url("/images/bg_addAuthor.jpg") !important; 
+background-size: cover;
+background-position: center;
+}
